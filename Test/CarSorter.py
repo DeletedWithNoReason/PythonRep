@@ -1,4 +1,4 @@
-from models import Car, Bus, Bicycle, ElectricCar
+from Test.models2 import Car, Bus, Bicycle, ElectricCar
 
 if __name__ == "__main__":
     transports = [

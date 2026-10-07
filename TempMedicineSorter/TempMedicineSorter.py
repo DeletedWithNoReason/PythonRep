@@ -1,4 +1,4 @@
-from models import Antibiotic, Vitamin, Vaccine
+from TempMedicineSorter.models1 import Antibiotic, Vitamin, Vaccine
 
 def print_medicines_info(medicines: list):
     for med in medicines:
