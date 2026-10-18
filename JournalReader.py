@@ -3,7 +3,6 @@ from functools import wraps
 
 VALID_TYPES = {"GATE", "CARGO", "ACCESS", "ALARM", "SENSOR", "CALL", "SYSTEM"}
 
-
 def validate_line(line):
     if not line.strip():
         return False, "empty"
