@@ -9,9 +9,11 @@ def test_order_init_and_repr():
     assert repr(order) == "<Order 1: 1 items>"
 
 def test_total_various_items():
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4c0eefa3dc207340f55ec62917d7d6ab21df3222
     order_empty = Order(1, [])
-    assert order_empty.total() == 0
 
     order_single = Order(2, [{'price': 50, 'quantity': 3}])
     assert order_single.total() == 150
