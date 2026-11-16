@@ -13,11 +13,9 @@ def test_total_various_items():
     order_empty = Order(1, [])
     assert order_empty.total() == 0
 
-    # Один елемент
     order_single = Order(2, [{'price': 50, 'quantity': 3}])
     assert order_single.total() == 150
 
-    # Кілька елементів
     order_multi = Order(3, [
         {'price': 10, 'quantity': 5},
         {'price': 20, 'quantity': 2}
